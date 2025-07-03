@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <label for="">Nombre</label>
+        <br>
+    <input type="text" placeholder="Sergio">
+        <br>
+    <label for="">Apellido</label>
+        <br>
+    <input type="text" placeholder="Goncalves">
+        <br>
+    <label for="">Contraseña</label>
+        <br>
+    <input type="password" placeholder="***********">
+        <br>
+    <label for="">DNI</label>
+        <br>
+    <input type="text" id="dni" placeholder="CI">
+        <br>
+    <form action="">
+        <label for="">Sexo</label>
+            <br>
+        <input type="radio" id="Hombre" value="1">
+        <label for="Hombre">Hombre</label>
+            <br>
+        <input type="radio" id="Mujer" checked value="1">
+        <label for="Mujer">Mujer</label>
+    </form>
+
+        <br>
+    <label for="">Incluir mi foto</label>
+    <input type="file">
+    <button>Elegir...</button>
+        <br>
+        <br>
+
+    <label for="">
+        <input type="checkbox" value="first_checkbox"> Suscribirme al boletin de novedades
+    </label>
+     <br>
+     <br>
+
+    <button>Guardar Cambios</button>
+    <button>Borrar datos introducidos</button>
+
+</body>
+</html>
